@@ -1,0 +1,18 @@
+{
+  "name": "rust-vite-template",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtakakura/rust-vite-template.git"
+  },
+  "license": "(MIT OR Apache-2.0)",
+  "type": "module",
+  "scripts": {
+    "clean": "npx rimraf dist",
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^4.4.9"
+  }
+}
